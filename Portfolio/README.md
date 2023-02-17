@@ -19,5 +19,3 @@ obrigatórias como:</p>
   <li> Alguma curiosidade sobre você;</li>
   <li> Uma fotinho bem descolada.</li>
 </ul>
-
-<p> Boa sorte e bom desenvolvimento, a prof acredita em você s2. </p>
