@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validação Formulário</title>
+</head>
+<body>
+    <h1>Matrícula aluno</h1>
+
+    <form>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <label for="letter">Nome: </label>
+            <br>
+            <input type="text" name="letter" id="letter" placeholder="Nome" required patern="[a-zA-Z\s]+$">  
+            <br><br>
+
+            <label for="cpf">CPF: </label>
+            <br>
+            <input type="text" name="cpf" id="cpf" placeholder="XXX.XXX.XXX-XX" required pattern="(\d{3}\.\d{3}\.\d{3}-\d{2})|(\d{11})">
+            <br><br>
+
+            <label for="dt">Data de nascimento: </label>
+            <br>
+            <input type="date" name="dt" id="dt" max="2023-03-02">
+            <br><br>
+
+            <label for="sexo">Sexo: </label>
+            <input type="radio" name="sex" id="sex">
+            <label for="sexo">Masculino </label>
+            <input type="radio" name="sex" id="sex">
+            <label for="sexo">Feminino </label>
+            
+            <br><br>
+
+            <label for="cidade">Cidade: </label>
+            <input type="text" name=" idade" id="cidade">  
+
+            <label for="states">Estados: </label>
+            <select name="states" id="states">
+            <option value="Acre">AC</option>
+            <option value="Alagoas">AL</option>
+            <option value="Amapá">AM</option>
+            <option value="Bahia">BA</option>
+            <option value="Ceará">CE</option>
+            <option value="Distrito Federal">DF</option>
+            <option value="Espirito Santo">ES</option>
+            <option value="Goias">GO</option>
+            <option value="Maranhão">MA</option>
+            <option value="Mato Grosso">MT</option>
+            <option value="Mato Grosso do Sul">MS</option>
+            <option value="Minas Gerais">MG</option>
+            <option value="Pará">PA</option>
+            <option value="Paraíba">PB</option>
+            <option value="Paraná">PR</option>
+            <option value="Pernambuco">PE</option>
+            <option value="Piauí">PI</option>
+            <option value="Rio de Janeiro">RJ</option>
+            <option value="Rio Grande do Norte">RN</option>
+            <option value="Rio Grande do Sul">RS</option>
+            <option value="Rondônia">RO</option>
+            <option value="Roraima">RR</option>
+            <option value="Santa Catarina">SC</option>
+            <option value="Sao Paulo">SP</option>
+            <option value="Sergipe">SE</option>
+            <option value="Tocantins">TO</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados da Matrícula</legend>
+            
+            <label for="curso">Curso: </label>
+            <br>
+            <input type="radio" name="ADS" id="ADS">
+            <label for="ADS">Análise e Desenvolvimento de Sistemas</label>
+            <input type="radio" name="EM" id="EM">
+            <label for="EM">Engenharia Mecânica</label>
+            <input type="radio" name="TSI" id="TSI">
+            <label for="TSI">Tecnologia em Sistemas para Internet</label>
+            <br><br>
+
+            <label for="dOPT">Disciplina(s) Optativas:</label>
+            <br>
+            <input type="checkbox" name="PR" id="PR">
+            <label for="PR">Programação de Robos</label>
+            <input type="checkbox" name="DIA" id="DIA">
+            <label for="DIA">Desenvolvimento de Inteligências Artificiais</label>
+            <br>
+            <input type="checkbox" name="MC" id="MC">
+            <label for="MC">Modelagem Computacional</label>
+            <input type="checkbox" name="AI" id="AI">
+            <label for="AI">Ambientes isolados: desenvolvimento com Docker</label>
+            <br><br>
+
+            <label for="review">Sugestão de disciplinas futuras:</label><br>
+            <textarea id="review" name="review" rows="4" cols="50"></textarea>
+            <br><br>
+
+            <center>
+            <input type="submit" value="Enviar"></center>
+            <br>
+
+        </fieldset>
+    </form>
+</body>
+</html>
