@@ -1,4 +1,4 @@
-<h1> Atividade 4 - 03/02></h1>
+<h1> Atividade 4 - 03/02</h1>
 <p> Utilizando conceitos de validação de formulários html 5 (regex), pede-se para
 desenvolver a seguinte tela:</p>
 <p>Tem-se:
