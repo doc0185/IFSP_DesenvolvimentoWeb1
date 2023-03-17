@@ -9,3 +9,6 @@ e posteriormente passar esse template para a linguagem html/css, mas muita calma
 Figma já foi criado para facilitar esse processo. Para ajudar nessa atividade será
 apresentado um exemplo do que é pedido:
 </p>
+
+<p> Link para Figma</p>
+<a href="https://www.figma.com/file/QXcl3Ik5IDo7VXG5GkMuqC/Untitled?node-id=0%3A1&t=cmbSRW5LNH8HRgT0-1">Figma</a>
