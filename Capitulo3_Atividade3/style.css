@@ -1,0 +1,948 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+}
+
+
+.titulo{
+    position: absolute;
+    width: 382px;
+    height: 58px;
+    left: 72px;
+    top: 32px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #000000;
+}
+
+.ad1{
+    position: absolute;
+width: 99px;
+height: 22px;
+left: 503px;
+top: 53px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.ad2{
+position: absolute;
+width: 118px;
+height: 22px;
+left: 600px;
+top: 53px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+color: #000000;
+
+z-index:1;
+
+}
+
+.ad3{
+    
+position: absolute;
+width: 50px;
+height: 22px;
+left: 737px;
+top: 53px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+
+/* identical to box height */
+
+color: #000000;
+}
+
+.ad4{
+
+    position: absolute;
+    width: 98px;
+    height: 22px;
+    left: 807px;
+    top: 53px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+.search{
+    position: absolute;
+    width: 295px;
+    height: 29px;
+    left: 968px;
+    top: 50px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    z-index:1;
+    
+    /* identical to box height */
+    text-align: center;
+    
+    color: #AAAAAA;
+}
+
+.login{
+    position: absolute;
+    width: 54px;
+    height: 22px;
+    left: 1339px;
+    top: 53px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    z-index: 1;
+    
+    /* identical to box height */
+    
+}
+
+.subtitulo{
+    position: absolute;
+    width: 157px;
+    height: 44px;
+    left: 72px;
+    top: 150px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+}
+
+.ano{
+    position: absolute;
+    width: 72px;
+    height: 22px;
+    left: 120px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.transmissao{
+    position: absolute;
+    width: 137px;
+    height: 22px;
+    left: 239px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.carroceria{
+    position: absolute;
+    width: 137px;
+    height: 22px;
+    left: 429px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.acabando{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 762px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.recentes{
+    position: absolute;
+    width: 99px;
+    height: 22px;
+    left: 881px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.sem_reserva{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1000px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.baixa_km{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1135px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.perto_de_mim{
+    position: absolute;
+    width: 115px;
+    height: 22px;
+    left: 1270px;
+    top: 225px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.hora_carro1{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 156px;
+    top: 517px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000
+}
+
+.valor_carro1{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 292px;
+    top: 515px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+}
+
+.nome_carro1{
+
+    position: absolute;
+    width: 384px;
+    height: 20px;
+    left: 120px;
+    top: 555px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro1{
+    position: absolute;
+    width: 384px;
+    height: 15px;
+    left: 120px;
+    top: 583px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+.hora_carro2{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 600px;
+    top: 515px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000;
+}
+
+.valor_carro2{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 748px;
+    top: 515px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+}
+
+.nome_carro2{
+    position: absolute;
+    width: 364px;
+    height: 20px;
+    left: 576px;
+    top: 555px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro2{
+    position: absolute;
+    width: 364px;
+    height: 15px;
+    left: 576px;
+    top: 582px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+.hora_carro3{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 1031px;
+    top: 515px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000;
+}
+
+.valor_carro3{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 1168px;
+    top: 517px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+    
+}
+
+.nome_carro3{
+    position: absolute;
+    width: 384px;
+    height: 20px;
+    left: 1000px;
+    top: 555px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro3{
+    position: absolute;
+    width: 384px;
+    height: 15px;
+    left: 1000px;
+    top: 582px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+.hora_carro4{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 156px;
+    top: 858px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000;
+}
+
+.valor_carro4{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 292px;
+    top: 858px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+}
+
+.nome_carro4{
+    position: absolute;
+    width: 384px;
+    height: 20px;
+    left: 120px;
+    top: 898px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro4{
+    position: absolute;
+    width: 384px;
+    height: 15px;
+    left: 120px;
+    top: 921px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+.hora_carro5{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 612px;
+    top: 858px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000;
+}
+
+.valor_carro5{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 748px;
+    top: 858px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+}
+
+.nome_carro5{
+    position: absolute;
+    width: 384px;
+    height: 20px;
+    left: 576px;
+    top: 898px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro5{
+    position: absolute;
+    width: 384px;
+    height: 15px;
+    left: 576px;
+    top: 921px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+.hora_carro6{
+    position: absolute;
+    width: 112px;
+    height: 20px;
+    left: 1036px;
+    top: 856px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.18em;
+    
+    color: #000000;
+}
+
+.valor_carro6{
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    left: 1172px;
+    top: 856px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    
+    color: #252525;
+}
+
+.nome_carro6{
+    position: absolute;
+    width: 384px;
+    height: 20px;
+    left: 1000px;
+    top: 896px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+.local_carro6{
+    position: absolute;
+    width: 384px;
+    height: 15px;
+    left: 1000px;
+    top: 919px;
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    
+    color: #AAAAAA;
+}
+
+IMG.forma1{
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    left: 0px;
+    top: 112px;
+    
+    background: #D9D9D9;
+}
+
+IMG.forma2{
+    position: absolute;
+    width: 125px;
+    height: 34px;
+    left: 595px;
+    top: 47px;
+    z-index:0;
+    
+    background: #18EE2D;
+    border-radius: 25px;
+}
+
+IMG.forma3{
+    position: absolute;
+    width: 61px;
+    height: 34px;
+    left: 1332px;
+    top: 47px;
+    z-index:0;
+    
+    background: #18EE2D;
+    border-radius: 25px;
+}
+
+IMG.forma4{
+    position: absolute;
+    width: 344px;
+    height: 52px;
+    left: 943px;
+    top: 38px;
+    z-index:0;
+    
+    background: #D9D9D9;
+    border-radius: 25px;
+}
+
+IMG.forma5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 84px;
+    height: 39px;
+    left: 114px;
+    top: 216px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.forma6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 161px;
+    height: 39px;
+    left: 227px;
+    top: 216px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.forma7{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 161px;
+    height: 39px;
+    left: 417px;
+    top: 216px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.carro1{
+    position: absolute;
+    width: 384px;
+    height: 262px;
+    left: 120px;
+    top: 286px;
+    
+    background: url(golf.jpg);
+}
+
+.barra_carro1{
+
+    box-sizing: border-box;
+    
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 136px;
+    top: 507px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+    }
+
+IMG.carro2{
+    position: absolute;
+    width: 364px;
+    height: 262px;
+    left: 576px;
+    top: 286px;
+    
+    background: url(argo.jpg);
+}
+
+.barra_carro2{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 592px;
+    top: 507px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.carro3{
+    position: absolute;
+    width: 364px;
+    height: 262px;
+    left: 1000px;
+    top: 286px;
+    
+    background: url(civic.jpg);
+}
+
+.barra_carro3{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 1015px;
+    top: 509px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.carro4{
+    position: absolute;
+    width: 384px;
+    height: 262px;
+    left: 120px;
+    top: 633px;
+    
+    background: url(fit.jpg);
+}
+
+.barra_carro4{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 136px;
+    top: 850px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.carro5{
+    position: absolute;
+    width: 364px;
+    height: 262px;
+    left: 576px;
+    top: 633px;
+    
+    background: url(tucson.jpg);
+}
+
+.barra_carro5{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 592px;
+    top: 850px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
+
+IMG.carro6{
+    position: absolute;
+    width: 364px;
+    height: 262px;
+    left: 999px;
+    top: 633px;
+    
+    background: url(fusion.jpg);
+}
+
+.barra_carro6{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 332px;
+    height: 35px;
+    left: 1016px;
+    top: 848px;
+    
+    background: #FFFFFF;
+    opacity: 0.25;
+    border: 2px solid #AAAAAA;
+    border-radius: 25px;
+}
