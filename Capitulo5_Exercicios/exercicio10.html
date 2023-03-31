@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 10</title>
+
+    <style>
+        table, th, td {
+            border: 5px solid black;}
+        table{
+            border-style: dashed;
+            padding: 10px;
+        }
+    </style>
+
+    <script>
+      tabelaHTML = "<table><tr><th colspan='50'>Números<tr><td>1";
+      let primos = 0;
+      for (dividendo = 2; dividendo <= 200; dividendo++) {
+        let ehPrimo = true;
+        for (divisor = 2; divisor < dividendo ; divisor++) {
+          if (dividendo % divisor == 0) {
+            ehPrimo = false;
+            tabelaHTML += "<td>" + dividendo;
+            break;
+          };
+        };
+        if (Boolean(ehPrimo)) { 
+          tabelaHTML += "<td bgcolor='#aaaa'>" + dividendo;
+          primos++;
+        }
+        if(dividendo % 16 == 0){
+            tabelaHTML += "<tr>"
+        } 
+      };
+      tabelaHTML += "</table>";
+      document.write(tabelaHTML);
+      alert("Números pintados em cinza são os números primos");
+    </script>
+</head>
+  
+</html>

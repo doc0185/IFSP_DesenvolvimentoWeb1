@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 7</title>
+</head>
+<body>
+    <div id="calculo">
+        
+        <button onclick="calcular()">Calcular</button>
+    </div>
+   
+
+   <script>
+
+    function calcular(){
+        let x = 3;
+        let z = 5;
+        let res = 0;
+        for(let i = 0; i < 1000; i++){
+            if(i % x == 0 || i % z == 0){
+                res += i;
+            }
+        }
+        
+     
+        alert("Resultado: "+ res);
+    }
+ </script>
+
+</body>
+</html>

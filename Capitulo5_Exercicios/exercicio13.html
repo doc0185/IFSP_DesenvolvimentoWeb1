@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercicio 13</title>
+    <script>
+        function calcular() {
+        
+        let base = document.getElementById("base").value;
+        let expoente  = document.getElementById("expoente").value;;
+        let resultado = base;
+        
+        for (i = 0; i <= expoente; i++) {
+            if (i == 0) {
+            document.write(base + '<sup>' + i + '</sup> = 1 <br>');
+            } else if (i == 1) {
+            document.write(base + '<sup>' + i + '</sup> = ' + base + "<br>");
+            } else {
+            for (x = 2; x <= i; x++) {
+                resultado *= base;
+            }
+            document.write(base + '<sup>' + i + "</sup> = " + resultado + "<br>");
+            resultado = base;
+            }
+        }
+        }
+    </script>
+  </head>
+  <body>
+    <label>Informe a base: </label>
+    <input id="base" type="text" maxlength=100 minlength=2><br>
+    <label>Informe o expoente: </label>
+    <input id="expoente" type="text" maxlength=100 minlength=2><br>  
+    <button onclick="calcular()">Calcular</button>      
+  </body>
+</html>
+

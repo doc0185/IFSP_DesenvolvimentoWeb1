@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 4</title>
+<body>
+   <p>Idade:<input id="idade" type="number"></p> <br />
+   <button onclick="calcular()">Calcular</button>
+
+   <script>
+
+    function calcular(){
+     let idade = parseInt(document.getElementById("idade").value);
+
+     if(idade > 18){
+        alert("Maior de idade");
+     } else{
+        alert("Menor de idade");
+     }
+     
+    }
+ </script>
+
+</body>
+</html>
