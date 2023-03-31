@@ -26,7 +26,6 @@ cujos valores não excedam cinquenta mil, encontre a soma dos termos pares.
 9. Listando os seis primeiros números primos: 2, 3, 5, 7, 11 e 13, podemos ver que o
 sexto primo é 13. Qual é o 1001º número primo? Faça um programa JavaScript
 que apresente esse número para o usuário.
-103
 10.Crie um programa que exiba em uma tabela e destaque todos os números
 primos que estão entre 0 e 200.
 11.Cálculo do Delta (Δ) de uma função de segundo grau.
@@ -58,7 +57,6 @@ Onde:
 a = base;
 n = expoente;
 b = potência.
-104
 14.1) Elaborar um programa que apresente o resultado de uma operação de
 potenciação usando os números 2 (dois) e 8 (oito) como base e expoente
 respectivamente;
@@ -89,7 +87,6 @@ respectivamente;
 Math.pow() e com o laço de repetição for;
 4) Apresente a base e o expoente no formato padrão de potenciação (Ex: 3²),
 utilizando a TAG <sup>.
-105
 17.No array abaixo temos 20 linhas por 20 colunas. Construa um programa que
 some os números posicionados na diagonal que vai da parte superior esquerda
 até inferior direita (em destaque) e apresente cada um dos itens encontrados e o
@@ -132,7 +129,6 @@ meuArray[12]= '82166370484403199890008895243450658541227588666881'
 meuArray[13]= '16427171479924442928230863465674813919123162824586'
 meuArray[14]= '17866458359124566529476545682848912883142607690042'
 meuArray[15]= '24219022671055626321111109370544217506941658960408'
-106
 meuArray[16]= '07198403850962455444362981230987879927244284909188'
 meuArray[17]= '84580156166097919133875499200524063689912560717606'
 meuArray[18]= '05886116467109405077541002256983155200055935729725'
